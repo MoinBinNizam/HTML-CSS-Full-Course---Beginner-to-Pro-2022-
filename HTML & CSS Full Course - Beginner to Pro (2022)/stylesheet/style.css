@@ -1,0 +1,767 @@
+body{
+  font-family: Arial;
+
+}
+h2 {
+  color: rgb(203, 9, 9);
+}
+
+.subscribe-button {
+  background-color: rgb(179, 8, 8);
+  color: white;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+  margin-left: 20px;
+  padding: 10 20 10 20;
+  /*(top,right,bottom,left)*/
+  vertical-align: top;
+}
+
+.subscribe-button:hover {
+  opacity: 0.7;
+}
+
+.subscribe-button:active {
+  opacity: 0.3;
+}
+
+.join-button {
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(6, 95, 212);
+  border-style: solid;
+  border-width: 1px;
+  padding: 9 16 9 16;
+  color: rgb(6, 95, 212);
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: background-color 0.15s,
+    color 0.15s;
+  vertical-align: top;
+}
+
+.join-button:hover {
+  background-color: rgb(6, 95, 212);
+  color: rgb(255, 255, 255);
+}
+
+.join-button:active {
+  opacity: 0.7;
+}
+
+.tweet-button {
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border: none;
+  padding: 10 16 10 16;
+  border-radius: 18px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  transition: box-shadow 0.15s;
+
+}
+
+.tweet-button:hover {
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.15);
+}
+
+.request-button {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: none;
+  padding: 15 20 15 20;
+  font-size: 16px;
+  cursor: pointer;
+  transition: opacity 0.9s;
+}
+
+.request-button:hover {
+  opacity: 0.6;
+}
+
+.add_to_cart {
+  background-color: rgb(255, 216, 20);
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 15 35 15 35;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+.add_to_cart:hover {
+  background-color: rgb(255, 200, 60);
+}
+
+.sign-up {
+  background-color: rgb(46, 164, 79);
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 15 30 15 30;
+  font-weight: bold;
+  font-size: 22px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: box-shadow 0.15s;
+}
+
+.sign-up:hover {
+  box-shadow: 5px 10px 5px rgba(224, 216, 216, 0.89);
+}
+
+.get-start {
+  background-color: rgb(121, 82, 179);
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 20 40 20 40;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 15px;
+  transition: background-color 0.15s;
+}
+
+.get-start:hover {
+  background-color: rgb(104, 77, 144);
+}
+
+.download {
+  background-color: rgb(255, 255, 255);
+  color: rgb(108, 117, 125);
+  border-color: rgb(108, 117, 125);
+  border-width: 1px;
+  padding: 20 40 20 40;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  border-style: solid;
+  transition: background-color 0.10s,
+    color 0.10s;
+}
+
+.download:hover {
+  background-color: rgb(108, 117, 125);
+  color: rgb(255, 255, 255);
+}
+
+.apply {
+  background-color: rgb(10, 102, 194);
+  color: rgb(255, 255, 255);
+  padding: 15 30 15 30;
+  font-weight: bold;
+  font-size: 22px;
+  cursor: pointer;
+  border-radius: 30px;
+  margin-right: 15px;
+  border: none;
+  transition: background-color 0.10s;
+}
+
+.apply:hover {
+  background-color: rgb(5, 55, 105);
+}
+
+.save {
+  background-color: rgb(255, 255, 255);
+  color: rgb(10, 102, 194);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(10, 102, 194);
+  padding: 15 30 15 30;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: background-color 0.10s;
+}
+
+.save:hover {
+  background-color: rgb(202, 220, 241);
+  border-width: 2px;
+}
+
+.back-to-amazone {
+  color: rgb(0, 113, 133);
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.stock {
+  color: rgb(0, 118, 0);
+}
+
+.add-to-cart {
+  background-color: rgb(255, 216, 20);
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10 50 10 50;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 30px;
+  margin-right: 15px;
+  transition: background-color 0.10s,
+    opacity 0.10s;
+}
+
+.add-to-cart:hover {
+  background-color: rgb(240, 219, 112);
+}
+
+.add-to-cart:active {
+  opacity: 0.5;
+}
+
+.buy-now {
+  background-color: rgb(255, 164, 28);
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10 50 10 50;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: background-color 0.10s,
+    opacity 0.10s;
+}
+
+.buy-now:hover {
+  background-color: rgb(230, 179, 104);
+}
+
+.buy-now:active {
+  opacity: 0.5;
+}
+
+.back-to-amazone:hover {
+  color: rgb(194, 119, 8);
+
+}
+
+.back {
+  margin-top: 10px;
+  border-radius: 3px;
+  border-width: 1px;
+  border-style: solid;
+  padding: 15 10 15 10;
+  font-size: 28px;
+  cursor: pointer;
+
+}
+
+.next {
+  margin-top: 10px;
+  border-radius: 3px;
+  border-width: 1px;
+  border-style: solid;
+  padding: 15 10 15 10;
+  font-size: 28px;
+  cursor: pointer;
+
+}
+
+.pagination {
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.page {
+  color: blueviolet;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.stretch {
+  background-color: green;
+  color: white;
+  border-style: none;
+  padding: 15 30 15 30;
+  font-size: 30px;
+  cursor: pointer;
+  transition: background-color 0.7s,
+    padding 0.7s, font-size 0.7s;
+}
+
+.stretch:hover {
+  background-color: green;
+  color: white;
+  border-style: none;
+  padding: 50 100 50 100;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.shadow {
+  background-color: green;
+  color: white;
+  border-style: none;
+  font-size: 18px;
+  padding: 8 16 8 16;
+  cursor: pointer;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+
+}
+
+.shadow:active {
+  margin-top: 3px;
+  margin-left: 3px;
+  box-shadow: none;
+}
+
+.margin_padding {
+  background-color: green;
+  color: white;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 10 20 10 20;
+  margin-right: 30px;
+  transition: background-color 0.7s,
+    padding 0.7s, margin-right 0.7s, margin-left 0.7s;
+}
+
+.margin_padding.hover {
+
+  margin-right: 15px;
+  margin-left: 15px;
+  /* padding: 20 30 20 30; */
+
+  background-color: green;
+  color: white;
+  border-style: none;
+  padding: 0 15 0 15;
+  cursor: pointer;
+}
+
+.tahoma_font {
+  font-size: 30px;
+  font-weight:bold;
+  font-family: Tahoma;
+}
+.biggest_deal{
+  
+  font-size: 30px;
+  font-weight:bold;
+  font-family: Arial;
+}
+.sales_teusday{
+  color: brown;
+  font-size: 20px;
+  font-style: italic;
+  font-family: Arial;
+
+}
+.font_verdana{
+  font-family: Verdana;
+}
+.html_css_course{
+  font-family: Verdana;
+  font-size: 20px;
+  font-weight:bold;
+  margin-bottom: 0;
+}
+.beginner_to_pro{
+  color: rgb(123, 123, 123);
+  margin-top: 0;
+}
+
+.content{
+  width: 300px;
+
+}
+.get-started{
+  background-color: rgb(10, 125, 10);
+  color: white;
+  padding: 10 15 10 15 ;
+  border-radius: 5px;
+  border: 0;
+}
+
+.arial{
+  font-family: Arial;
+  text-align: center;
+}
+.shopping_for_business{
+  font-weight: bold;
+  font-size: 25px;
+
+}
+.apple{
+  font-size: 17px;
+}
+.learn_more{
+color: rgb(27, 27, 151);
+}
+.font_family_arial{
+  font-family: Arial;
+  text-align: center;
+  line-height: 5px;
+}
+
+.new{
+  color: orangered;
+  font-size: 13px;
+  font-weight: bold;
+}
+.macbook_pro{
+  font-size: 18px;
+  font-weight: bold;
+}
+.supercharged_for_pros{
+  font-size: 25px;
+  font-weight: bold;
+}
+.from_1999{
+  font-size: 14px;
+}
+.buy{
+  background-color: rgb(46, 125, 228);
+  color: white;
+  font-weight: bold;
+  margin-left: 130px;
+  margin-right: 130px;
+  display: block;
+  text-align: center;
+
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 30px;
+  font-size: 13px;
+  cursor: pointer;
+}
+.font_arial{
+  font-family: Arial;
+  white-space: 5px;
+  
+}
+.total{
+  font-size: 50px;
+}
+.usd{
+  font-size: 20px;
+  color: rgb(123, 123, 123);
+}
+.today_rate{
+  font-size: 18px;
+  margin-top: 10px;
+  color: rgb(48, 137, 48);
+  line-height: 1.8;
+}
+.After_hours{
+  font-size: 18px;
+  color: rgb(123, 123, 123);
+  line-height: 1.8
+}
+.range{
+  font-size: 18px;
+  color: rgb(173, 52, 52);
+}
+.font_arial{
+  font-family: Arial;
+}
+.freecodecamp_heading{
+  font-size: 25px;
+}
+.freecodecamp{
+  color: rgb(104, 105, 104);
+}
+.freecodecamp_desc{
+  font-size: 20px;
+}
+.font_arial_here_help{
+  font-family: Arial;
+  font-size: 18px;
+}
+.chp_it{
+  color: rgba(23, 64, 249, 0.573);
+}
+.font_monteserrat{
+  font-family:Montserrat;
+  text-align: center;
+
+}
+
+.moderl_3{
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 20px;
+}
+.order_online{
+  font-size: 20px;
+}
+.touchless_delivery{
+  text-decoration: underline;
+}
+.image{
+  width: 300px;
+  border-radius: 15px;
+}
+.image2{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+  border-width: 2px;
+  border-color: white;
+  border-style: solid;
+}
+.image3{
+  height: 300px;
+  width: 300px;
+  border-radius: 300px;
+}
+.search{
+  font-size: 19px;
+  
+}
+.search_shadow{
+  width: 500px;
+  border-radius: 30px;
+  font-size: 19px;
+  border: none;
+  padding: 12px 15px 15px 12px;
+  border-width: 2px;
+  box-shadow:0 1px 5px rgba(0,0,0,0.25);
+}
+.link_email{
+  font-size: 16px;
+  opacity: 0.8;
+}
+.linkedIn_email{
+  width: 380px;
+  border-color: black;
+  border-radius: 3px;
+  margin-bottom: 8px;
+}
+.twitter{
+border-radius: 6px;
+box-shadow: 0 0 6px rgba(0,0,0,0.3);
+padding: 12px 12px 12px 12px;
+width: 490px;
+}
+.twitter_text_image{
+  height: 50px;
+  width: 50px;
+  border-radius:25px;
+  object-fit: cover;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.twitter_input{  
+  vertical-align: middle;
+  width: 300px;
+  border: none;
+  font-size: 18px;
+}
+.tweet{
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border: none;
+  padding: 8px 16px 8px 16px;
+  vertical-align: middle;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+.desc_agree{
+  opacity: 0.8;
+}
+.desc_agree{
+  color: black;
+  opacity: 0.6px;
+}
+.agree_join{
+background-color: rgb(47, 127, 231);
+color: white;
+border: none;
+border-radius: 30px;
+padding: 15px 40px 15px 40px;
+width: 410px;
+font-size: 20px;
+}
+.name_input{
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.email_input{
+  font-size: 16px;
+}
+.display_paragraph{
+  width: 330px;
+  display: inline-block;
+  vertical-align: middle;
+ 
+  display: inline-block;
+}
+.google{
+  text-align: center;
+}
+.google_input{
+  text-align: center;
+}
+.google_logo{
+  width: 200px;
+  margin-left: 150px;
+  margin-bottom: 10px;
+
+}
+.google_search{
+  border: none;
+  padding: 12px 16px 12px 16px;
+  font-size: 16px;
+  width: 561px;
+  height: 44px;
+  border-radius: 30px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+}
+input{
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(200,200,200);
+  padding: 12px 16px 12px 16px;
+  font-size: 16px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+
+  }
+.first_name{
+  width: 148px;
+}
+.last_name{
+  width: 148px;
+}
+.email{
+  display: block;
+  width: 333px;
+}
+.signup{
+  background-color: rgb(47, 127, 231);
+  color: white;
+  border: none;
+  width: 365px;
+  border-radius: 8px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
+}
+.title{
+  font-family: Arial;
+  font-size:40px;
+  margin-bottom: 25px;
+}
+.uber{
+  display: block;
+  background-color: rgb(240,240,240);
+  border: none;
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding: 15px 20px 15px 20px;
+  width: 400px;
+}
+.destination{
+margin-bottom: 50px ;
+}
+.request_button{
+  background-color: black;
+  color: white;
+  width: 150px;
+  margin-bottom: 50px;
+  margin-right: 15px;
+  padding: 10px 10px 10px 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.schedule_button{
+  background-color: rgb(240,240,240);
+  color: black;
+  width: 180px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 50px;
+  padding: 10px 10px 10px 10px;
+  font-size: 18px;
+}
+.square{
+  background-color: red;
+  height: 100px;
+  width: 100px;
+}
+.green_circle{
+  background-color: green;
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+}
+.wrap_element{
+  padding-left:20px;
+  padding-bottom:20px;
+  width: 400px;
+  font-family: Arial;
+  font-size:20px;
+  border-width: 1px;
+  border-color: rgb(170, 170, 170);
+  border-style: solid;
+}
+.btn{
+  font-size: 17px;
+}
+.youtube_music{
+  background-color: rgb(30, 30, 30);
+  color: white;
+  padding: 20px 15px 20px 15px;
+  width: 370px;
+
+}
+.youtube_music_title{
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 3px;
+  margin-top: 10px;
+}
+.youtube_desc{
+  opacity: 0.6;
+}
+.profile{
+  
+  width: 200px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  margin-right: 15px;
+}
+.profile_picture{
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+
+.name{
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 8px;
+  margin-bottom: 4px;
+}
+.mutual_friend{
+  color: rgb(100, 100, 100);
+  margin-left: 8px;
+  margin-bottom: 12px;
+}
+.add_friend{
+  background-color: rgb(24, 119, 242);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px 10px 20px;
+  font-size: 16px;
+  margin-left: 8px;
+  margin-bottom: 10px;
+}
